@@ -21,6 +21,14 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
+body {
+    background: linear-gradient(to right,rgb(230, 172, 255),rgb(207,253,255));
+}
+img{
+    height:10%;
+    width:50%;
+}
+
 .container .text-muted {
   margin: 20px 0;
 }

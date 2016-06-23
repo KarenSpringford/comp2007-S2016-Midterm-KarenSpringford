@@ -7,6 +7,8 @@
                 <div class="text-center">
                     <h1><%= heading1 %></h1>
                     <h2><%= heading2 %></h2>
+                    <h3>By: Karen Springford</h3>
+                    <img src="../Assets/Karen.jpg" alt="Karen"/>
                 </div>
             </div>
         </div>
