@@ -17,7 +17,22 @@ namespace COMP2007_S2016_MidTerm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SetActivePage();
+            if (!IsPostBack)
+            {
+                //check to see if the user is logged in
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+              
+                    PublicPlaceholder.Visible = true;
+                }
+                else
+                {
+                    //only show login and register
+                    PublicPlaceholder.Visible = false;
+                }
+
+                SetActivePage();
+            }
         }
 
         /**
@@ -37,6 +52,15 @@ namespace COMP2007_S2016_MidTerm
                     break;
                 case "Todo List":
                     todo.Attributes.Add("class", "active");
+                    break;
+                case "Register":
+                    register.Attributes.Add("class", "active");
+                    break;
+                case "Login":
+                    login.Attributes.Add("class", "active");
+                    break;
+                case "Logout":
+                    logout.Attributes.Add("class", "active");
                     break;
             }
         }

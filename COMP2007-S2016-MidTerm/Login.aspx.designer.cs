@@ -10,60 +10,51 @@
 namespace COMP2007_S2016_MidTerm {
     
     
-    public partial class Navbar {
+    public partial class Login {
         
         /// <summary>
-        /// home control.
+        /// AlertFlash control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl AlertFlash;
         
         /// <summary>
-        /// todo control.
+        /// StatusLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl todo;
+        protected global::System.Web.UI.WebControls.Label StatusLabel;
         
         /// <summary>
-        /// PublicPlaceholder control.
+        /// UserNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PublicPlaceholder;
+        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
         
         /// <summary>
-        /// login control.
+        /// PasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
         
         /// <summary>
-        /// register control.
+        /// LoginButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
-        
-        /// <summary>
-        /// logout control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl logout;
+        protected global::System.Web.UI.WebControls.Button LoginButton;
     }
 }

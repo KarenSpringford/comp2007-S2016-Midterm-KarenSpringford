@@ -10,60 +10,87 @@
 namespace COMP2007_S2016_MidTerm {
     
     
-    public partial class Navbar {
+    public partial class Register {
         
         /// <summary>
-        /// home control.
+        /// AlertFlash control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl AlertFlash;
         
         /// <summary>
-        /// todo control.
+        /// StatusLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl todo;
+        protected global::System.Web.UI.WebControls.Label StatusLabel;
         
         /// <summary>
-        /// PublicPlaceholder control.
+        /// UserNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PublicPlaceholder;
+        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
         
         /// <summary>
-        /// login control.
+        /// PhoneNumberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
+        protected global::System.Web.UI.WebControls.TextBox PhoneNumberTextBox;
         
         /// <summary>
-        /// register control.
+        /// EmailTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
+        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
         
         /// <summary>
-        /// logout control.
+        /// PasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl logout;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
+        
+        /// <summary>
+        /// ConfirmPasswordTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ConfirmPasswordTextBox;
+        
+        /// <summary>
+        /// CancelButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CancelButton;
+        
+        /// <summary>
+        /// RegisterButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button RegisterButton;
     }
 }
