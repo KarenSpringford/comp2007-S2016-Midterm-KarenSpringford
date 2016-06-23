@@ -24,10 +24,10 @@
                 OnRowDataBound="TodosGridView_RowDataBound" OnRowDeleting="TodosGridView_RowDeleting" PagerStyle-CssClass="pagination-ys">
 
                 <Columns>
-                        <asp:BoundField DataField="TodoID" HeaderText="To Do ID" Visible="true"/>
+                        <asp:BoundField DataField="TodoID" HeaderText="To Do ID" Visible="false"/>
                         <asp:BoundField DataField="TodoName" HeaderText="To Do Name" Visible="true"/>
                         <asp:BoundField DataField="TodoNotes" HeaderText="Notes" Visible="true"/>
-                        <asp:BoundField DataField="Completed" HeaderText="Completed" Visible="true"/>
+                        <asp:BoundField DataField="Completed" HeaderText="Completed" Visible="false"/>
                         <asp:CheckBoxField DataField="Completed" HeaderText="Completed" Visible="true" />
 
                         <asp:HyperLinkField HeaderText="Edit" Text="<i class='fa fa-pencil-square-o fa-lg'></i> Edit" 

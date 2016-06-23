@@ -31,7 +31,7 @@ namespace COMP2007_S2016_MidTerm
 
         /**
          * <summary>
-         * This method gets the student data from the DB
+         * This method gets the todo data from the DB
          * </summary>
          * @method GetStudents
          * @return (void)
@@ -44,7 +44,7 @@ namespace COMP2007_S2016_MidTerm
 
                 string SortString = Session["SortColumn"].ToString() + " " + Session["SortDirection"].ToString();
 
-                //query the students table using EF and LINQ
+                //query the todo table using EF and LINQ
                 var Todos = (from allTodos in db.Todos
                                 select allTodos);
 
